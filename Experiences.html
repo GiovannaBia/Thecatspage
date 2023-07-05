@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>The cat's page</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700&family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c7ac02a9fe.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="Experiences.html">Experiences</a>
+                <a href="Otherwebs.html">Other webs</a>
+                <a href="Book.html">Book</a>
+            </nav>
+
+            <div class="title">
+                <h1>The cat's world</h1> <i class="fa-sharp fa-solid fa-paw"></i>
+                </div>
+        </header>
+        <main>
+            <form action="form-handing-url" method="post">
+                <fieldset>
+                    <legend>Your cat</legend>
+                    <div class="for-flex">
+                    <div class="form-ques">
+                        <label for="your-name">Your name</label> <br>
+                        <input type="text" id="your-name" name="your-name">
+                    </div>
+                    <div class="form-ques">
+                        <div >
+                        <label for="cat-name">Your cats name</label> <br>
+                        <input type="text" id="cat-name" name="cat-name">
+                    </div>
+                    <div class="form-ques">
+                        <label for="cat-age">Your cats age</label> <br>
+                        <input type="text" id="cat-age" name="cat-age">
+                    </div>
+                    <div class="form-ques">
+                        <label for="sex-cat">Your cat is a</label> <br>
+                        <label for="sex-cat"><input type="checkbox" id="sex-cat" value="hembra" checked>Female</label>
+                        <label for="sex-cat"><input type="checkbox" id="sex-cat" value="macho">Male</label>
+                    </div >
+                    <div class="form-ques">
+                        <label for="about">About yor cat</label> <br>
+                        <textarea id="about" name="about"></textarea>
+                    </div>
+                    <div class="form-ques">
+                        <div >
+                        <button type="submit">Fingerprint</button>
+                    </div>
+                    </div>
+                </fieldset>
+            </form>
+        </main>
+    </body>
+
+</html>
